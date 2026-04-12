@@ -1,0 +1,46 @@
+#container{
+    height: 400px;
+    width: 500px;
+    border: 2px solid black; 
+    display: flex;
+}
+#container2{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+}
+.box{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 1px;
+}
+#box1{
+    background-color: red;
+    flex-grow: 1;
+}
+#box2{  
+    background-color: purple;
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: yellow;
+}
+/* flex-grow property is used to specify how much the item will grow relative to the other items in the container. It takes a positive integer value. The default value is 0, which means that the item will not grow. If all items have the same flex-grow value, they will grow equally. If one item has a higher flex-grow value than the others, it will grow more than the others. */
+#box5{
+    background-color: green;
+    flex-shrink: 2;
+}
+#box6{
+    background-color: orange;
+    flex-shrink: 0;
+}
+#box7{
+    background-color: pink;
+}
+#box8{
+    background-color: cyan;
+}

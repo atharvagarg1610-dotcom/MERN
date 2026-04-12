@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    height: 100px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 2px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: purple;
+}
+#box3{
+    background-color: blue;
+}   
+#box4{
+    background-color: yellow;
+}

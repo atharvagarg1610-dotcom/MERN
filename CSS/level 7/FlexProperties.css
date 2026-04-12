@@ -1,0 +1,47 @@
+  
+#container{
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    /* justify-content: center;
+    justify-content: flex-end; 
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+    /* align self property is used to align the individual items in the cross axis. It overrides the align-items property for the specific item. but it does not override the align-content property. */
+    align-items: center;
+    /* align-content:center;     */
+    /* align content property is used to align the items in the cross axis when there are multiple lines of items. It is used in conjunction with flex-wrap property. It has the following values:
+    1. flex-start: aligns the items to the start of the cross axis.
+    2. flex-end: aligns the items to the end of the cross axis.
+    3. center: aligns the items to the center of the cross axis.
+    4. space-between: aligns the items with equal space between them.
+    5. space-around: aligns the items with equal space around them.
+    6. space-evenly: aligns the items with equal space between them and around them. */
+    
+/*comment and uncomment the above properties to see the changes in the layout of the boxes*/
+}
+.box{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 1px;
+    
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: purple;
+    align-self: flex-end;
+}
+#box3{
+    background-color: blue;
+}   
+#box4{
+    background-color: yellow;
+}
