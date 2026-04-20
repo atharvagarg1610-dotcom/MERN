@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+.b {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    margin: 40px;
+    transition: all 0.8s ease-in-out 0.4s;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 16%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#b1 {
+    background-color: blue;
+   
+}
+
+#b1:hover {
+     transform: skew(45deg);
+
+}
+
+#b2 {
+    background-color: green;
+
+}
+
+#b2:hover {
+   transform: skew(90deg);
+}
+
+#b3 {
+    background-color: orange;
+
+}
+
+#b3:hover {
+    transform: skewX(-45deg);
+}
+
+#b4 {
+    background-color: purple;
+
+}
+
+#b4:hover {
+    transform: skewY(45deg);
+}
+

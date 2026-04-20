@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+    .b {
+        width: 150px;
+        height: 150px;
+        border: 4px solid black;
+        border-radius: 16%;
+        font-size: 20px;
+        margin: 20px;
+        background-color: lightblue;
+        text-align: center;
+        position: relative;
+
+        /* animation-name: ghumakkad;
+        animation-duration: 2s;
+        animation-timing-function:ease-in-out ;
+        animation-delay: 1s;
+        animation-iteration-count:5;
+        animation-direction: alternate; */
+        animation:ghumakkad 2s ease-in-out 1s 6 alternate;
+        /* animation: name duration timing-function delay iteration-count direction;  shorthand */
+    }
+    @keyframes ghumakkad {
+   0% {left: 10px; top:0px}
+       25% {left: 200px; top:0px}
+       50% {left: 200px; top:200px}
+       75% {left: 10px; top:200px}
+       100% {left: 5px; top:0px}      
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="b">animate</div>
+    
+</body>
+</html>
